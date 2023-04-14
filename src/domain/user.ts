@@ -10,4 +10,3 @@ export const userSchema = zod.object({
 });
 
 export type User = zod.infer<typeof userSchema>;
-
